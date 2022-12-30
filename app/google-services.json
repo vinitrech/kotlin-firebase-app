@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "58763880354",
+    "project_id": "kotlin-firebase-app-775d8",
+    "storage_bucket": "kotlin-firebase-app-775d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58763880354:android:1bc550a819e409adeab4fb",
+        "android_client_info": {
+          "package_name": "com.vinitrech.kotlin_firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58763880354-vscd4nc0pa536srunfh9csgovd9qlfg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS_fkdzhiyKaNZLFrBHMP3ZTvF6IkgfAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58763880354-vscd4nc0pa536srunfh9csgovd9qlfg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

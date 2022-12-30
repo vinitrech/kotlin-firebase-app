@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin-Firebase-App</string>
+    <string name="title_signup_form">Sign Up</string>
+    <string name="title_login_form">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="go">Go!</string>
+    <string name="dont_have_account">Don\'t have an account? Register here.</string>
+</resources>
