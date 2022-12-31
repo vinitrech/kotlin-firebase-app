@@ -1,9 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context=".view.mainScreen.MainScreen">
+    
+    <Button
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+            android:id="@+id/save_data_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    <Button
+            android:id="@+id/update_data_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    <Button
+            android:id="@+id/read_data_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/read"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    <Button
+            android:id="@+id/delete_data_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    
+    <TextView
+            android:id="@+id/read_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+        />
+
+    <TextView
+            android:id="@+id/read_surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+            android:id="@+id/read_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+
+</LinearLayout>
